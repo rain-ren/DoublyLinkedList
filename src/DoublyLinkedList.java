@@ -78,6 +78,7 @@ public class DoublyLinkedList {
                     int input = userInput.nextInt();
                     list.addToFront(input);
                     System.out.println("There is now " + list.size + " node/s.");
+                    break;
                 default:
                     System.out.print("Invalid Choice!");
             }
